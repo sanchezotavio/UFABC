@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>InsereServlet</servlet-name>
+        <servlet-class>com.web.InsereServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EntrarServlet</servlet-name>
+        <servlet-class>com.web.EntrarServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>seguir</servlet-name>
+        <servlet-class>com.web.SeguirServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PostarServlet</servlet-name>
+        <servlet-class>com.web.PostarServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SairServlet</servlet-name>
+        <servlet-class>com.web.SairServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsereServlet</servlet-name>
+        <url-pattern>/insere</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EntrarServlet</servlet-name>
+        <url-pattern>/entrar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PostarServlet</servlet-name>
+        <url-pattern>/postar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SairServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

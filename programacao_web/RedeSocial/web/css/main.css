@@ -1,0 +1,320 @@
+
+body{
+    background-color: #eee;
+}
+
+a{
+    color:#42478B;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+a:hover{
+    color:#1EBE93;
+}
+
+.bar-top{
+    background-color: #333;
+    border-radius: 0;
+}
+
+.bar-top a{
+    color:#eee;
+}
+
+.bar-top a:hover{
+    color:#444;
+}
+
+.bar-top:before{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+.top-usuarios ul {         
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+
+.top-usuarios ul li {     
+    list-style:none;
+    margin-bottom:25px;           
+}
+
+.top-usuarios ul li img {
+    cursor: pointer;
+}
+
+#logoFooter{
+    background-image: url(../img/logoFooter.png);
+    width: 100%;
+    height: 100%;
+}
+
+.usuario{
+    text-align: center;
+}
+
+.usuario h1{
+    font-size: 1.2em;
+    margin: 5% 0 5% 0;
+}
+
+.box{
+    padding: 1%;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1%;
+    background-color: #fff;
+}
+
+.seguindo h2{
+    margin: 0 0 1% ;
+    font-size: 1.1em;
+}
+
+.divisao{
+    width: 10%;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 2%;
+}
+
+.posts h2{
+    margin: 0 0 1%;
+    font-size: 1.6em;
+}
+
+.form-control{
+    margin-bottom: 1%;
+}
+
+.seguidor ul{
+    margin: 0 0 10%;;
+    padding: 0;
+}
+
+.seguidor ul li{
+    margin: 0;
+    padding: 0.5px;
+    list-style: none;
+}
+
+.tops{
+    margin: 1px; 
+    padding: 0;
+}
+
+.tops ul{
+    margin: 0 0 10%;;
+    padding: 0;
+}
+
+.tops ul li{
+    margin: 0;
+    padding: 0.5px;
+    list-style: none;
+}
+
+.top ul li img{
+    width: 100%;
+    height: auto;
+}
+
+.usuario h2{
+    font-size: 0.8em;
+    margin: 0;
+    font-weight: 600;
+    color: #666;
+}
+
+.usuario span{
+    font-size:1.5em;
+}
+
+.info-usuario .box{
+    margin: 4% 0 0 0;
+    padding: 5% 0 3% 0;
+}
+
+.usuario box{
+    width: 100%;
+    height: auto;
+}
+
+.post{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1%;
+    padding: 0;
+    list-style: none;    
+}
+
+.post img{
+    width: 100%;
+    height: auto;
+}
+
+.post p{
+    padding: 1%;
+    margin: 0;
+}
+
+.topo-post{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.topo-post span{
+    float: right;
+    font-size: 0.8em;
+    margin: 1.2% 1% 0 0;
+}
+
+.img-topo{
+    width: 5%;
+    height: 100%;
+    display: inline-block;
+}
+
+.col-md-2{
+    padding: 0;
+}
+
+.navbar{
+    background-color: #42478B;
+    border-bottom: 3px solid #1EBE93; 
+}
+
+.btn-default {
+    text-shadow: none;
+    background-image: none;
+    filter:  none;
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
+    background-color: #1EBE93;
+    color:#fff;
+}
+
+.btn-success {
+    background-image: none;
+    filter:none;
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    border-color: #dbdbdb;
+    border-color: #ccc;
+    background-color: #1EBE93;
+    color:#fff;
+}
+
+.dados{
+    color:#42478B;
+    font-weight: 600;
+}
+
+.seguidor h2{
+    color:#1EBE93;
+    padding-bottom: 2%;
+}
+
+.brand{
+    background: url(../img/LogoOSocial.png) no-repeat left center;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    background-size: 100%;
+    background-position-y: 7px;
+}
+
+footer{
+    border-top: 3px solid #1EBE93;
+}
+
+.top-footer{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 1% 0 0.5% 0;
+    text-align: center;
+    background-color: #ddd;
+    font-size: 0.8em;
+    color:#1EBE93;
+}
+
+footer h5{
+
+    padding: 3% 0 1% 0;
+    font-weight: 600;
+    color:#1EBE93;
+}
+
+.central{
+    text-align: center;
+}
+
+.central h4{
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.central h1{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.central img{
+    width: 40%;
+    height: auto;
+    margin: 10% 0 10% 0;
+}
+
+footer li{
+    padding: 0 0 3% 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bottom-footer{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 1% 0 0 0;
+    text-align: center;
+    font-size: 0.8em;
+    color:#333;
+    border-top: 1px solid #ccc;
+    margin-top: 3%;
+}
+
+article h1{
+    font-size: 2.2em;
+}
+
+article h1 span{
+    font-weight: 700;
+}
+
+article p{
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+.tu{
+    margin-bottom: 40%;
+}
